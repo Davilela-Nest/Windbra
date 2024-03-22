@@ -43,6 +43,13 @@ p {
     margin: 0 auto;
   }
 
+  p {
+    font-size: 0.875rem;
+    line-height: 25px;
+    text-align: start;
+    letter-spacing: normal;
+  }
+
   .container-img {
     display: inline-block;
   }
