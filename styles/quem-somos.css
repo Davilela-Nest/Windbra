@@ -1,0 +1,56 @@
+.container {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #3B3B3B;
+  background: #fff;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 0.938rem;
+}
+
+p {
+  font-size: .875rem;
+  line-height: 25px;
+  text-align: start;
+  letter-spacing: normal;
+}
+
+.imagens {
+  text-align: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.container-img {
+  margin-top: 0;
+  display: flex;
+  margin-bottom: 1%;
+  justify-content: space-between;
+}
+
+.vertical {
+  width: 24.25%;
+}
+
+.horizontal {
+  width: 49.5%;
+}
+
+/* O valor 1024 é o valor que o site oficial "entra" no modo mobile */
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 1.5%;
+    margin: 0 auto;
+  }
+
+  .container-img {
+    display: inline-block;
+  }
+
+
+  .vertical,
+  .horizontal {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
